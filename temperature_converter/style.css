@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h1{
+    margin: 20px;
+    font-size: xx-large;
+}
+
+label {
+  font-weight: bold;
+}
+
+.input-divs{
+    display: flex;
+    gap: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: large;
+}
+
+.converter-div{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+#unit1, #unit2{
+    width: 120px;
+    height: 30px;
+    font-size: large;
+    border-radius: 5px;
+    background-color: white;
+}
+
+option{
+    width: 120px;
+    height: 30px;
+    font-size: large;
+    border-radius: 50px;
+    background-color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#error-div{
+    font-size: medium;
+    font-weight: 600;
+    padding: 5px;
+}
