@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1{
+    background-image: url("/assets/background-poster.jpg");
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.789) 0px -400px 150px -180px inset, rgba(0, 0, 0, 0.789) 0px 300px 150px -120px inset, rgba(0, 0, 0, 0.789) 300px 0px 200px -150px inset, rgba(0, 0, 0, 0.789) -300px 0px 200px -150px inset;
+}
+
+.red-btn{
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: red;
+    font-weight:500;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0.1px solid rgb(124, 124, 124);
+}
+
+.qa-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.question{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    transition: all;
+    transition-duration: 0.5s;
+}
+.question > img{
+    cursor: pointer;
+}
+.plus{
+    transition: all;
+    transition-duration: 0.2s;
+}
+.question:hover{
+    background-color: rgb(71, 71, 71);
+}
+.answer{
+    display: none;
+    background-color: rgb(50, 50, 50);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform-origin: top;
+}
